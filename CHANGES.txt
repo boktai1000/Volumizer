@@ -1,0 +1,18 @@
+tag 27f713216fcde47b304666dbdb48c7b7fe4ab596 9.0.1.1
+Author:	James D. Callahan III <darkenelf@gmail.com>
+Date:	Tue Oct 27 00:06:53 2020 -0500
+
+Shadowlands update.
+
+commit 10073caf0ca13c0c77f1aaa42ebbb21d2c58cdc9
+Author: James D. Callahan III <darkenelf@gmail.com>
+Date:   Tue Oct 27 00:05:43 2020 -0500
+
+    Apply the BackdropTemplate to all frames that require it.
+
+commit c416979da2dcf8e58a4f61c3cc6e38d3f811cee1
+Author: James D. Callahan III <darkenelf@gmail.com>
+Date:   Tue Oct 27 00:04:59 2020 -0500
+
+    Update ToC Interface for the WoW 9.0.1 version.
+
