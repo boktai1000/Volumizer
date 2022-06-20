@@ -814,27 +814,27 @@ function Volumizer:PLAYER_ENTERING_WORLD()
 	do
 		local old_x, old_y, click_time
 
-		_G.WorldFrame:HookScript("OnMouseDown", function(frame, ...)
-			old_x, old_y = _G.GetCursorPosition()
-			click_time = _G.GetTime()
-		end)
+		-- _G.WorldFrame:HookScript("OnMouseDown", function(frame, ...)
+			-- old_x, old_y = _G.GetCursorPosition()
+			-- click_time = _G.GetTime()
+		-- end)
 
-		_G.WorldFrame:HookScript("OnMouseUp", function(frame, ...)
-			local x, y = _G.GetCursorPosition()
+		-- _G.WorldFrame:HookScript("OnMouseUp", function(frame, ...)
+			-- local x, y = _G.GetCursorPosition()
 
-			if not old_x or not old_y or not x or not y or not click_time then
-				self:Hide()
-				border:Hide()
-				return
-			end
+			-- if not old_x or not old_y or not x or not y or not click_time then
+				-- self:Hide()
+				-- border:Hide()
+				-- return
+			-- end
 
-			if (math.abs(x - old_x) + math.abs(y - old_y)) <= 5 and _G.GetTime() - click_time < 1 then
-				self:Hide()
-				border:Hide()
-			end
-		end)
+			-- if (math.abs(x - old_x) + math.abs(y - old_y)) <= 5 and _G.GetTime() - click_time < 1 then
+				-- self:Hide()
+				-- border:Hide()
+			-- end
+		-- end)
 
-		table.insert(_G.UISpecialFrames, "VolumizerPanel")
+		-- table.insert(_G.UISpecialFrames, "VolumizerPanel")
 
 		SLASH_Volumizer1 = "/volumizer"
 		SLASH_Volumizer2 = "/vol"
